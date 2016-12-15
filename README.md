@@ -28,11 +28,11 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
     
 ### Running Tests
    * Note: Suite must be created and devices selected before running tests.
-	#####Execute Suite
+
+   #####Execute Suite
 	```
 	$ mvn test
 	```
-
 ### Advice/Troubleshooting
 1. It may be useful to use a Java IDE such as IntelliJ or Eclipse to help troubleshoot potential issues. 
 
