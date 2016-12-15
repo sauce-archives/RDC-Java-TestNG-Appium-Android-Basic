@@ -12,9 +12,9 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
     ```
 2. TestObject Credentials
     * Add your TestObject API Key and the Suite Number on line 19 as indicated
-    ```
+    
 3. Project Dependencies
-	* Check that Packages are available
+   * Check that Packages are available
 	```
 	$ cd Java-TestNg-Appium-Android-Basic
 	$ mvn test-compile
