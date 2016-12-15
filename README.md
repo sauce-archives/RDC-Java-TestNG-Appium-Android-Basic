@@ -11,7 +11,7 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
     $ brew install maven
     ```
 2. TestObject Credentials
-    * Add your TestObject API Key and the Suite Number on line 19 as indicated
+    * Add your TestObject API Key and Device ID on lines 30 and 31 respectively. 
     
 3. Project Dependencies
    * Check that Packages are available
