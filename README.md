@@ -24,10 +24,10 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
 	$ mvn versions:display-dependency-updates
 	```
 4. Application
-    * Application can be downloaded by clicking [here](http://saucelabs.com/example_files/ContactManager.apk)
+   * Application can be downloaded by clicking [here](http://saucelabs.com/example_files/ContactManager.apk)
     
 ### Running Tests
-	* Note: Suite must be created and devices selected before running tests.
+   * Note: Suite must be created and devices selected before running tests.
 	#####Execute Suite
 	```
 	$ mvn test
