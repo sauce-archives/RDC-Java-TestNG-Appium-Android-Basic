@@ -28,11 +28,11 @@ public class SampleSauceTest implements TestObjectWatcherProvider {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        capabilities.setCapability("testobject_api_key", "ADD_API_KEY_HERE");
-        capabilities.setCapability("testobject_device", "ADD_DEVICE_ID_HERE");
+        capabilities.setCapability("testobject_api_key", System.getenv("TESTOBJECT_API_KEY"));
+        capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("testobject_test_name", "Add Contact Test");
         
-        driver = new AndroidDriver(new URL("http://appium.testobject.com/wd/hub"), capabilities);
+        driver = new AndroidDriver(new URL("https://us1.appium.testobject.com/wd/hub"), capabilities);
         provider.setDriver(driver);
         provider.setLocalTest(false);
     }
