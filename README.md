@@ -1,3 +1,5 @@
+## Note: This repo is no longer maintained.  Please visit https://github.com/saucelabs-rdc-sample-frameworks/RDC-Java-TestNG-Appium-Android-Basic for up to date code.
+
 ## Java-TestNg-Appium-Android-Basic
 
 This code is provided on an "AS-IS” basis without warranty of any kind, either express or implied, including without limitation any implied warranties of condition, uninterrupted use, merchantability, fitness for a particular purpose, or non-infringement. Your tests and testing environments may require you to modify this framework. Issues regarding this framework should be submitted through GitHub. For questions regarding Sauce Labs integration, please see the Sauce Labs documentation at https://wiki.saucelabs.com/. This framework is not maintained by Sauce Labs Support.
@@ -11,7 +13,11 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
     $ brew install maven
     ```
 2. TestObject Credentials
-    * Add your TestObject API Key and Device ID on lines 30 and 31 respectively. 
+    * Add your TestObject API Key and Appium version you would like to run against
+    ```
+    $ export TESTOBJECT_API_KEY=<your project's api key>
+    $ export APPIUM_URL=<your preferred appium endpoint URL>
+    ```
     
 3. Project Dependencies
    * Check that Packages are available
